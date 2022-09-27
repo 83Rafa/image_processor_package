@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: processing-images
+Version: 0.0.1
+Summary: Image color processor
+Home-page: https://github.com/83Rafa/image-color-merger.git
+Author: 83Rafa
+Author-email: elfaramail@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Image Color Processor
+
+Description. 
+The package processing_images is used to:
+
+	- Image reading
+	- Image resize
+	- Structural recognition
+	- Histogram correspondence recognition
+	- Ploting images
+	- Ploting histograms
+	- Image saving
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install processing_images
+
+```bash
+pip install processingImages
+```
+
+## Usage
+
+```python
+from processing_images.processing import combination, transformation
+from processing_images.utils import io, plot
+```
+
+## Author
+83Rafa
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
