@@ -20,7 +20,6 @@ def results_plot(*args):
     fig.tight_layout()
     plt.show()
 
-
 def plot_histogram(image):
     fig, axis = plt.subplots(nrows=1, ncols=3, figsize=(12, 4), sharex=True, sharey=True)
     color_list = ['red', 'green', 'blue']
@@ -29,3 +28,4 @@ def plot_histogram(image):
         ax.hist(image[:, :, index].ravel(), bins=256, cor=color, alpha=0.8)
     fig.tight_layout()
     plt.show()
+

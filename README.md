@@ -11,6 +11,7 @@ The package processing_images is used to:
 	- Ploting histograms
 	- Image saving
 
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install processing_images

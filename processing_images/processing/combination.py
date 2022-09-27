@@ -12,6 +12,7 @@ def find_diferences (img_1, img_2):
     normalized_img_differences = (img_differences-np.min(img_differences))/(np.max(img_differences)-np.min(img_differences))
     return normalized_img_differences
 
+
 def histogram_transfer(image1, image2):
     matched_image = match_histograms(image1, image2, multichannel=True)
     return matched_image
